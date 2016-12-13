@@ -1,0 +1,639 @@
+@media only screen and (max-width: 1600px) {
+
+body {
+    background:#ffffff;
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+    font-family: 
+}
+
+
+@font-face{ 
+    font-family:"Goth Med";
+    src: url(../fonts/gotham/gothamrnd-medium.otf);
+}
+
+@font-face{
+    font-family:"Goth Bold";
+    src: url(../fonts/gotham/GothamRnd-Bold.otf)
+}
+
+@font-face{
+    font-family:"Goth Bold/itc";
+    src: url(../fonts/gotham/GothamRnd-BoldItal.otf);
+}
+
+
+@font-face{
+    font-family:"Goth Book";
+    src: url(../fonts/gotham/GothamRnd-Book.otf);
+}
+
+@font-face{
+    font-family:"Goth light";
+    src: url(../fonts/gotham/gothamrnd-light.otf);
+}
+
+div{
+    font-family:"Goth Med", sans-serif;
+}
+
+#menu{
+     float: right;
+    padding-right: 50px;
+}
+
+#navbar {
+    position: fixed;
+    opacity: 0.8;
+    z-index: 1000;
+    top: 0px;
+    margin: 0px;
+    padding:40px;
+    width: 100%;
+    background-color: #000000;
+}
+
+.nav {
+    z-index: 1000;
+    list-style-type: none;
+    position: fixed;
+    width: 100%;
+    overflow: hidden;
+    top: 0px;
+    margin: 0px;
+    padding:0px;
+}
+
+.nav img{
+    padding: 3px 0px 0px 25px;
+
+}
+
+.nav ul{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    list-style-type: none;
+}
+
+.nav li{
+    float: left;
+
+}
+
+.nav li a{
+    display: inline-block;
+    color: #ffffff;
+    text-align: center;
+    padding:  23px 16px;
+    text-decoration: none;
+}
+
+
+.rounded-rectangle {
+    margin-top:12px;
+    border-radius: 25px;
+    background: red;
+    padding: 0px; 
+    width: 120px;
+    height: 0px;   
+}
+
+#stop {
+    margin-top: -10px;
+}
+
+
+.herobanner {
+   background-image: linear-gradient(180deg, #913FE4, #EA1D06);
+    position: relative;
+    top: 0px;
+    padding: 60px 0px 60px 0px;
+    margin:0px;
+    width: 100%;
+}
+
+.herobanner img{
+        overflow: visible;
+        float:right;
+        padding: 50px;
+        z-index: 999px;
+}
+
+.herobanner h1{
+        padding:100px 50px ;
+        font-size: 75pt;
+        text-align: left;
+        color: #ffffff;
+}
+
+
+#chevron {
+  position: relative;
+  text-align: center;
+  padding: 12px;
+  margin-bottom: 6px;
+  height: 10px;
+  width: 100px;
+  margin-left: 50%;
+}
+#chevron:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 51%;
+  background: white;
+  -webkit-transform: skew(0deg, 40deg);
+  -moz-transform: skew(0deg, 40deg);
+  -ms-transform: skew(0deg, 40deg);
+  -o-transform: skew(0deg, 40deg);
+  transform: skew(0deg, 40deg);
+}
+#chevron:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 50%;
+  background: white;
+  -webkit-transform: skew(0deg, -40deg);
+  -moz-transform: skew(0deg, -40deg);
+  -ms-transform: skew(0deg, -40deg);
+  -o-transform: skew(0deg, -40deg);
+  transform: skew(0deg, -40deg);
+}
+
+.info{
+    z-index: -1;
+   background-color: #FFFFFF;
+    position: relative;
+    top: 15px;
+    height: 800px;
+    width: 100%;
+    padding: 0x 0px 250px 0px;
+}
+
+.info h2{
+    margin-left: 800px; 
+    color: blue;
+    font-size: 38pt;
+    font-family: "Goth Bold";
+}
+
+.info p{
+    margin-top: -35px;
+    margin-right: 50px;
+    margin-left: 800px;
+    padding: 0px 0px 15px 0px;
+    color: #000000;
+    font-family: "Goth Book";
+}
+
+.info h3{
+    
+    margin-left: 800px;
+    padding: 0px 0px 0px 0px;
+    color:blue;
+    font-size: 38pt;
+}
+
+.info img{
+     z-index: 0;
+     margin: 100px;
+    width: 280px;
+    float: left;
+}
+
+
+.info #img1{
+    margin: 110px 0px 0px 80px;
+}
+
+.info #img2{
+        margin: 297px 0px 0px 0px;
+}
+
+.info #img3{
+        margin: 484px 0px 0px -560px;    
+}
+
+.support{
+     background-image: linear-gradient(0deg, #913FE4, #EA1D06);
+    position: relative;
+    top: -59px;
+    padding: 75px 0px 70px 0px;
+}
+
+.support h2{
+    color: #ffffff;
+    text-align: center;
+    margin: 5px 0px 30px 0px;
+    padding: 0px 0px 0px 0px;  
+    font-size: 58px;
+}
+
+
+.support ol {
+    margin: -500px 0px 0px 800px;
+    padding: 0 0 0 55px;
+    list-style: none;
+    overflow: hidden;
+    counter-reset: numList;
+}
+.support ol li {
+    font-size: 38px;
+    width: 400px;
+    padding: 35px 20px 35px 30px;
+    position: relative;
+}
+.support ol li:before {
+    counter-increment: numList;
+    content: counter(numList);
+    float: left;
+    position: absolute;
+    left: -50px;
+    text-align: center;
+    line-height: 38px;
+    width: 38px; 
+    height: 38px;
+    background: #ffffff;
+    -moz-border-radius: 999px;
+    border-radius: 999px
+}
+
+
+.line1 {
+    width: 540px;
+    height: 47px;
+    border-bottom: 5px solid #000000;
+    -webkit-transform:
+        translateY(0px)
+        translateX(0px)
+        rotate(165deg); 
+    position: absolute;
+    padding: 0px 0px;
+    margin: -385px 0px 0px 310px;
+}
+
+.line2 {
+    width: 640px;
+    height: 47px;
+    border-bottom: 5px solid #000000;
+    -webkit-transform:
+        translateY(0px)
+        translateX(0px)
+        rotate(163deg); 
+    position: absolute;
+    padding: 0px 0px;
+    margin: -250px 0px 0px 219px;
+}
+
+.line3 {
+    width: 530px;
+    height: 47px;
+    border-bottom: 5px solid #000000;
+    -webkit-transform:
+        translateY(0px)
+        translateX(0px)
+        rotate(170deg); 
+    position: absolute;
+    padding: 0px 0px;
+    margin: -180px 0px 0px 320px;
+}
+
+.line4 {
+    width: 525px;
+    height: 47px;
+    border-bottom: 5px solid #000000;
+    -webkit-transform:
+        translateY(0px)
+        translateX(0px)
+        rotate(175deg); 
+    position: absolute;
+    padding: 0px 0px;
+    margin: -92px 0px 0px 315px;
+}
+
+.support img{
+
+    padding: 0px 0px 0px 100px;
+    z-index: 0;
+}
+
+.download{
+    top: -46px;
+    text-align: center;
+    color: #333399;
+    background: #ffffff;
+    margin: -15px 0px 50px 0px;
+    padding: 50px 0px 0px 0px;
+    
+}
+
+.download h3{
+    color: #ffffff;
+    font-size: 43pt;
+    padding: 0px 0px;
+    margin: -10px;
+}
+
+.download h2{
+    font-family: "Goth Bold";
+    font-size: 60pt;
+}
+
+.download p{
+    font-size: 48pt;
+    margin: 10px; 
+}
+
+#line1{
+    padding: 58px 0px 0px 0px; 
+    margin: 0px 0px -70px 0px;
+}
+
+#line2{
+    margin: -70px 0px 75px 0px;
+}
+
+.rounded-rectangle2 {
+    align-content: center;
+    margin:auto;
+    border-radius: 100px;
+    background: #333399;
+    padding: 10px; 
+    width: 520px;
+    height: 50px;   
+    
+}
+
+.footer{
+    background:#000000;
+}
+
+.footer img{
+    padding: 3px 0px 0px 25px;
+}
+
+.footer ul{
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    overflow: hidden;
+    list-style-type: none;
+   
+}
+
+.footer li{
+    /*float: right;*/
+
+    display: inline-block;
+}
+
+.footer li a{
+    display: inline-block;
+    color: #ffffff;
+    text-align: center;
+    margin: 10px 0px 0px 50px;
+    padding:  23px 16px;
+    text-decoration: none;
+    font-family: "Goth light";
+}
+
+    
+}
+/*----------------------resize after 800px window----------------*//*----------------------resize after 800px window----------------*//*----------------------resize after 800px window----------------*//*----------------------resize after 800px window----------------*/
+@media only screen and (max-width: 800px) {
+    body {
+        background-color:#FFFFFF;
+    }
+    
+    
+    .herobanner img{
+        overflow: visible;
+        float:right;
+        padding: 50px;
+        z-index: 999px;
+        height: 300px;
+        width: 166px;
+}
+
+.herobanner h1{
+        padding:50px 25px ;
+        font-size: 45pt;
+        text-align: left;
+        color: #ffffff;
+}
+
+
+#chevron {
+  position: relative;
+  align-content: center;
+  padding: 12px 0px 12px 0px;
+    
+  margin-bottom: 6px;
+  height: 10px;
+  width: 50x;
+  margin-left: 50%;
+}
+#chevron:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 50%;
+  width: 25%;
+  background: white;
+  -webkit-transform: skew(0deg, 40deg);
+  -moz-transform: skew(0deg, 40deg);
+  -ms-transform: skew(0deg, 40deg);
+  -o-transform: skew(0deg, 40deg);
+  transform: skew(0deg, 40deg);
+}
+#chevron:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 50%;
+  width: 25%;
+  background: white;
+  -webkit-transform: skew(0deg, -40deg);
+  -moz-transform: skew(0deg, -40deg);
+  -ms-transform: skew(0deg, -40deg);
+  -o-transform: skew(0deg, -40deg);
+  transform: skew(0deg, -40deg);
+}
+
+    
+    
+    .info img{
+        z-index: 0;
+        margin: 10x;
+        width: 186px;
+    }
+    .info #img1{
+        margin: 55px 0px 0px 40px;
+    }
+
+    .info #img2{
+            margin: 177px 0px 0px 0px;
+    }
+
+    .info #img3{
+            margin: 300px 0px 0px -370px;    
+    }
+    .info{
+    z-index: -1;
+    background-color: #FFFFFF;
+    position: relative;
+    top: 15px;
+    height: 600px;
+    width: 100%;
+    padding: 0x 0px 250px 0px;
+}
+.info h2{
+    margin-left: 500px; 
+    color: blue;
+    font-size: 19pt;
+    font-family: "Goth Bold";
+}
+.info p{
+    margin-top: -17px;
+    margin-right: 25px;
+    margin-left: 500px;
+    padding: 0px 0px 15px 0px;
+    font-size: 12pt;
+    color: #000000;
+    font-family: "Goth Book";
+}
+
+.info h3{
+    
+    margin-left: 500px;
+    padding: 0px 0px 0px 0px;
+    color:blue;
+    font-size: 19pt;
+}
+
+.support{
+     background-image: linear-gradient(0deg, #913FE4, #EA1D06);
+    position: relative;
+    top: -59px;
+    padding: 37px 0px 95px 0px;
+}
+
+.support h2{
+    color: #ffffff;
+    text-align: center;
+    margin: -35px 0px 30px 0px;
+    padding: 0px 0px 0px 0px;  
+    font-size: 38pt;
+}
+
+
+.support ol {
+    margin: -350px 0px 0px 400px;
+    padding: 0 0 0 55px;
+    list-style: none;
+    overflow: hidden;
+    counter-reset: numList;
+}
+.support ol li {
+    font-size: 21pt;
+    width: 400px;
+    padding: 15px 20px 15px 30px;
+    position: relative;
+}
+.support ol li:before {
+    counter-increment: numList;
+    content: counter(numList);
+    float: left;
+    position: absolute;
+    left: -30px;
+    text-align: center;
+    line-height: 38px;
+    width: 38px; 
+    height: 38px;
+    background: #ffffff;
+    -moz-border-radius: 999px;
+    border-radius: 999px
+}
+
+
+.line1 {
+    width: 300px;
+    height: 47px;
+    border-bottom: 3px solid #000000;
+    -webkit-transform:
+        translateY(0px)
+        translateX(0px)
+        rotate(155deg); 
+    position: absolute;
+    padding: 0px 0px;
+    margin: -260px 0px 0px 170px;
+}
+
+.line2 {
+    width: 375px;
+    height: 47px;
+    border-bottom: 3px solid #000000;
+    -webkit-transform:
+        translateY(0px)
+        translateX(0px)
+        rotate(153deg); 
+    position: absolute;
+    padding: 0px 0px;
+    margin: -180px 0px 0px 118px;
+}
+
+.line3 {
+    width: 300px;
+    height: 47px;
+    border-bottom: 3px solid #000000;
+    -webkit-transform:
+        translateY(0px)
+        translateX(0px)
+        rotate(160deg); 
+    position: absolute;
+    padding: 0px 0px;
+    margin: -140px 0px 0px 180px;
+}
+
+.line4 {
+    width: 290px;
+    height: 47px;
+    border-bottom: 3px solid #000000;
+    -webkit-transform:
+        translateY(0px)
+        translateX(0px)
+        rotate(165deg); 
+    position: absolute;
+    padding: 0px 0px;
+    margin: -85px 0px 0px 175px;
+}
+
+.support img{
+
+    padding: 0px 0px 0px 50px;
+    z-index: 0;
+    height: 300px;
+    width: 166px;
+    
+}
+
+
+
+
+
+
+
+
+}
+
+/*top right bottom left*/
